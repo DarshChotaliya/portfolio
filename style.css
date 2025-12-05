@@ -641,6 +641,8 @@ ul {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  text-align: left;
+  align-items: flex-start;
 }
 
 .project-content h3 {
@@ -877,7 +879,12 @@ ul {
   }
   
   .container {
-    padding: 0 1.25rem;
+    padding: 0 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   /* Compact Mobile Views */
@@ -886,7 +893,13 @@ ul {
   }
 
   .project-content {
-    padding: 1.25rem;
+    padding: 1.25rem 1rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .project-tech-stack {
+    justify-content: center;
   }
 
   .project-content h3 {
@@ -910,5 +923,11 @@ ul {
   .section-subtitle {
     margin-bottom: 2rem;
     font-size: 1rem;
+  }
+
+  .contact-details p,
+  .contact-details a {
+    font-size: 0.95rem;
+    word-break: break-word;
   }
 }
