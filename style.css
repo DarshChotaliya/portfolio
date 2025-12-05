@@ -879,4 +879,36 @@ ul {
   .container {
     padding: 0 1.25rem;
   }
+
+  /* Compact Mobile Views */
+  .project-image {
+    height: 180px;
+  }
+
+  .project-content {
+    padding: 1.25rem;
+  }
+
+  .project-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .contact-item-card {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+  }
+
+  .section-subtitle {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
 }
